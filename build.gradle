@@ -22,4 +22,8 @@ wrapper {
     gradleVersion = '5.2'
 }
 
-
+jmh {
+    fork = 1
+    warmupIterations = 1
+    iterations = 1
+}
